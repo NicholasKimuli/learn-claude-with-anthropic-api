@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create a JSON configuration for an AWS Lambda function that uses Python 3.9 runtime, has 512MB memory, and a 30-second timeout",
+    "format": "json",
+    "solution_criteria": "JSON must have correct AWS Lambda function configuration keys, specify runtime as 'python3.9', memory size as 512, and timeout as 30"
+  },
+  {
+    "task": "Write a Python function to extract the AWS region from a given ARN (Amazon Resource Name)",
+    "format": "python",
+    "solution_criteria": "Function should parse the ARN string and return the region component (e.g., 'us-east-1' from 'arn:aws:ec2:us-east-1:123456789012:instance/i-1234567890abcdef0')"
+  },
+  {
+    "task": "Create a regular expression to validate an AWS S3 bucket name (lowercase, no spaces, 3-63 characters, can contain hyphens)",
+    "format": "regex",
+    "solution_criteria": "Regex should match valid S3 bucket name rules: start with lowercase letter/number, can contain lowercase letters, numbers, hyphens, length between 3-63 characters"
+  }
+]
