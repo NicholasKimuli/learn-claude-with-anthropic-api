@@ -1,0 +1,53 @@
+[
+  {
+    "output": "[\n    \"liminality\",\n    \"cultural anthropology\",\n    \"ritual studies\",\n    \"postcolonial theory\",\n    \"social performance analysis\",\n    \"indigenous communities\",\n    \"Amazon ethnography\",\n    \"cultural identity\",\n    \"transitional spaces\",\n    \"Western cultural frameworks\"\n]",
+    "test_case": {
+      "prompt_inputs": {
+        "content": "In contemporary cultural anthropology, the concept of 'liminality' bridges interdisciplinary perspectives across ritual studies, postcolonial theory, and social performance analysis. Ethnographic research among indigenous communities in the Amazon reveals how transitional spaces\u2014neither fully traditional nor completely modernized\u2014create complex social negotiations of identity, challenging Western binary frameworks of cultural understanding and representation."
+      },
+      "solution_criteria": [
+        "Identify core academic topics accurately",
+        "Capture nuanced interdisciplinary themes",
+        "Represent the conceptual breadth of the passage"
+      ],
+      "task_description": "\n    Extract topics out of a passage of text from a scholarly article into a JSON array of strings.\n    ",
+      "scenario": "Test extracting topics from a humanities article with interdisciplinary research on cultural anthropology, requiring nuanced topic interpretation"
+    },
+    "score": 9,
+    "reasoning": "The solution successfully extracts key academic topics from the passage, meeting all mandatory requirements. It demonstrates a strong understanding of the text's interdisciplinary nature, capturing core concepts from cultural anthropology, postcolonial theory, and social studies. The topics are accurately represented as JSON strings without additional commentary."
+  },
+  {
+    "output": "[\n    \"Microplastic contamination\",\n    \"Coastal marine sediments\",\n    \"Spectroscopic techniques\",\n    \"Fourier-transform infrared spectroscopy\",\n    \"Polymer compositions\",\n    \"Polyethylene\",\n    \"Polypropylene\", \n    \"Polyethylene terephthalate\",\n    \"Microplastic concentrations\",\n    \"Marine food web bioaccumulation\"\n]",
+    "test_case": {
+      "prompt_inputs": {
+        "content": "Microplastic contamination in coastal marine sediments represents a critical environmental challenge with complex ecological implications. Advanced spectroscopic techniques like Fourier-transform infrared (FTIR) spectroscopy enable precise characterization of microplastic polymer compositions, revealing predominant polymers such as polyethylene (PE), polypropylene (PP), and polyethylene terephthalate (PET) in sedimentary profiles. Quantitative analysis indicates microplastic concentrations ranging from 15-42 particles per kilogram of sediment, with potential bioaccumulation risks in marine food webs."
+      },
+      "solution_criteria": [
+        "Correctly identify primary scientific topics",
+        "Capture key technical terminology",
+        "Produce a JSON array of topics"
+      ],
+      "task_description": "\n    Extract topics out of a passage of text from a scholarly article into a JSON array of strings.\n    ",
+      "scenario": "Test extracting topics from a dense scientific paper with highly specialized terminology in environmental engineering, challenging topic detection"
+    },
+    "score": 9,
+    "reasoning": "The solution successfully meets all mandatory requirements by providing a JSON array of scientific topics extracted directly from the text. The topics capture the key scientific concepts, technical terms, and research focus of the passage about microplastic contamination. While there are minor issues with topic granularity, these do not significantly detract from the overall quality of the extraction."
+  },
+  {
+    "output": "[\n    \"Comparative historiography\",\n    \"Transnational intellectual movements\",\n    \"Anthropological methodologies\",\n    \"Postcolonial theoretical frameworks\",\n    \"Epistemological shifts\",\n    \"Academic discourse\",\n    \"Interdisciplinary research\",\n    \"Knowledge production\",\n    \"Scholarly exchange\",\n    \"Disciplinary boundaries\"\n]",
+    "test_case": {
+      "prompt_inputs": {
+        "content": "The comparative historiography of transnational intellectual movements reveals complex intersections between anthropological methodologies and postcolonial theoretical frameworks. By examining the epistemological shifts in academic discourse across sociology, cultural studies, and historical research, scholars have uncovered nuanced mechanisms of knowledge production that challenge traditional disciplinary boundaries. The interdisciplinary approach demonstrates how intellectual genealogies emerge through critical dialogue across seemingly disparate academic domains, revealing intricate networks of scholarly exchange and theoretical transformation."
+      },
+      "solution_criteria": [
+        "Correctly identify primary academic disciplines mentioned",
+        "Extract core conceptual topics from the scholarly text",
+        "Represent topics accurately in a JSON array format"
+      ],
+      "task_description": "\n    Extract topics out of a passage of text from a scholarly article into a JSON array of strings.\n    ",
+      "scenario": "Test extracting topics from a comparative historical analysis text involving multiple academic disciplines and complex scholarly discourse"
+    },
+    "score": 9,
+    "reasoning": "The solution successfully extracts core academic topics from the scholarly text, meeting all mandatory requirements. The topics reflect the interdisciplinary nature of the passage, covering methodological, theoretical, and epistemological dimensions. The JSON array is correctly formatted with clean, concise topic strings."
+  }
+]
